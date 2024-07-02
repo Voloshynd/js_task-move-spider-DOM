@@ -1,0 +1,2 @@
+document.addEventListener("click",function(t){var e=document.querySelector(".spider"),i=document.querySelector(".wall");if("DIV"===t.target.tagName){var c=t.offsetX,n=t.offsetY;t.target.matches(".spider")&&(c+=e.offsetLeft,n+=e.offsetTop);var l=e.clientWidth/2,o=e.clientHeight/2,a=c-l,f=n-o;c<=l&&(a=0),c>=i.clientWidth-l&&(a=i.clientWidth-e.clientWidth),n<=o&&(f=0),n>=i.clientHeight-o&&(f=i.clientHeight-e.clientHeight),e.style.left="".concat(a,"px"),e.style.top="".concat(f,"px")}});
+//# sourceMappingURL=index.c15756eb.js.map
